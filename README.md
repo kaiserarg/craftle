@@ -18,10 +18,16 @@ Build the application
 make build
 ```
 
-Run the application
+Run the frontend
 ```bash
-make run
+make runfront
 ```
+
+Run the backend
+```bash
+make runback
+```
+
 Create DB container
 ```bash
 make docker-run
